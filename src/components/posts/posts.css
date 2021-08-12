@@ -1,0 +1,12 @@
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+@media (max-width: 800px) {
+    .posts {
+      flex-direction: column;
+      flex: 4;
+    }
+  }
