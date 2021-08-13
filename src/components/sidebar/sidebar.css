@@ -2,7 +2,7 @@
     flex: 3;
     margin: 20px;
     padding-bottom: 30px;
-    background-color: #fdfbfb;
+    background-color: beige;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -61,4 +61,9 @@
       font-size: 16px;
       margin-left: 10px;
       cursor: pointer;
+  }
+  @media screen and (max-width: 575px) {
+    sidebar {
+      display: inline-block;
+    }
   }

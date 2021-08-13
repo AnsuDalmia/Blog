@@ -8,14 +8,14 @@ import "./topbar.css";
 
 export default function TopBar() {
   const { user, dispatch } = useContext(Context);
-  const PF = "http://localhost:5000/images/"
+  const PF = "https://blogbackend13.herokuapp.com/images/";
 
   const handleLogout = () => {
     dispatch({ type: "LOGOUT" });
   };
   return (
     <div>
-    {/* <div className="top"> 
+     <div className="top"> 
       <div className="topLeft">
         <i className="topIcon fab fa-facebook-square"></i>
         <i className="topIcon fab fa-twitter-square"></i>
@@ -23,7 +23,7 @@ export default function TopBar() {
         <i className="topIcon fab fa-instagram-square"></i>
       </div>
 
-      </div> <div className="topCenter"> 
+      </div>{/* <div className="topCenter"> 
         <ul className="topList">
            <li className="topListItem"> 
             <Link className="link" to="/">
