@@ -4,7 +4,7 @@ import "./header.css";
 
 export default function Header() {
   return (
-    <Jumbotron fluid>
+    <Jumbotron fluid className="jumbotron">
       <Container fluid>
     <div className="header">
       <div className="headerTitles">
